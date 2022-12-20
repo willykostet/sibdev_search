@@ -1,0 +1,99 @@
+$red: #FF0000;
+$lightern-black: #272727;
+$black: #000;
+$primary:#1390E5;
+$secondary:#35A2EC;
+$lightern-blue:rgba(19, 144, 229, 0.8);
+$gray:rgba(197, 228, 249, 0.3);
+$white: #FFF;
+$semi-white: #FFF;
+$light-blue: #75C7FF;
+$light-black: rgba(39, 39, 39, 0.3);
+$dark-blue: rgba(23, 23, 25, 0.2);
+$border-black: rgba(0, 0, 0, 0.128);
+
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    color: #2c3e50;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+    opacity: 1;
+    transition: 0.3s opacity;
+  
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+  
+  .container {
+    max-width: 1040px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 100%;
+  }
+  
+  .search-page {
+    width: 100%;
+    background: #f7f6f6;
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  button {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.3s opacity;
+  
+    &:hover {
+      opacity: 0.7;
+  
+    }
+  
+  
+  }
+  
+  @media screen and (max-width: 1080px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 686px;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .container {
+      max-width: 95%;
+    }
+  }
+  
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: $primary;
+    border-radius: 5px;
+  
+    &:hover {
+      background: #0d74b9;
+    }
+  }
